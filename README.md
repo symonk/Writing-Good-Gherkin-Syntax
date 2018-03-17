@@ -1,6 +1,6 @@
 # :beginner: Writing Good Gherkin Syntax :beginner:
 This repository outlines some good rules of thumb when dealing with Gherkin syntax when creating an automation framework that will
-utilize a BDD manner.
+utilize a BDD approach.
 
 ## Overall Guidelines: :beginner:
 
