@@ -36,7 +36,7 @@ utilize a BDD approach.
 - Tags should be concise and not extremely short
 - For example: `@example-tag`
 
-## :begniner: Example [Bad] (Imperative)
+## :beginner: Example [Bad] (Imperative)
 
 ```
 Feature: Google searching
