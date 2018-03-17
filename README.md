@@ -1,8 +1,8 @@
-# :beginner: Writing Good Gherkin Syntax :beginner:
+# :beginner: Writing Good Gherkin Syntax
 This repository outlines some good rules of thumb when dealing with Gherkin syntax when creating an automation framework that will
 utilize a BDD approach.
 
-## Overall Guidelines: :beginner:
+## :beginner: Overall Guidelines:
 
 - BDD/Cucumber is not designed as a "test aid", it is a development aid and firstly we should remove the thoughts of it being solely for testing from our head.
 - One scenario should be explicit of one individual behaviour
@@ -14,8 +14,9 @@ utilize a BDD approach.
 - First words of the scenario title should be capitalized, rest in lower case
 - Feature declarations should be capitalized for the first word
 - All scenarios should be written in a third person sense, do **NOT** use the word "I" do X
+- Experiment, but keep consistency
 
-## Scenario declarations and Scenario Titles: :beginner:
+## :beginner: Scenario declarations and Scenario Titles:
 
 - Avoid using words like: 'but', 'or', 'and' in the scenario or title
 - Avoid using words like: 'like', 'since', 'so' in the scenario or title
@@ -23,19 +24,19 @@ utilize a BDD approach.
 - Scenario titles should be concise one-liners, outlining the behaviour being examined
 - Scenarios themselves should be short and sweet
 
-## Steps Overview: :beginner:
+## :beginner: Steps Overview:
 
 - Given steps should be written in the past-tense, e.g `Given an admin user **has** been created`
 - When steps should be written in the present-tense, e.g `When the admin **deletes** a user account`
 - Then steps should be written in the present-tense, e.g `Then the user **is** unable to login`
 
-## Tags: :beginner:
+## :beginner: Tags: 
 - Tags should be written in lower case
 - Tags should be word seperated by hyphens
 - Tags should be concise and not extremely short
 - For example: `@example-tag`
 
-## Example [Bad] (Imperative)
+## :begniner: Example [Bad] (Imperative)
 ```
 Feature: Google searching
 
@@ -49,7 +50,7 @@ Feature: Google searching
     Then images related to "panda" are shown on the results page `<-- Disrespectful of BDD syntax`
 ```
 
-## Example [Good] (Declarative)
+## :beginner: Example [Good] (Declarative)
 ```
 Feature: Google searching
 
