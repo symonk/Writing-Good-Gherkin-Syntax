@@ -37,6 +37,7 @@ utilize a BDD approach.
 - For example: `@example-tag`
 
 ## :begniner: Example [Bad] (Imperative)
+
 ```
 Feature: Google searching
 
@@ -51,6 +52,7 @@ Feature: Google searching
 ```
 
 ## :beginner: Example [Good] (Declarative)
+
 ```
 Feature: Google searching
 
